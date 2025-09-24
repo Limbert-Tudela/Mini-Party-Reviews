@@ -1,0 +1,16 @@
+[
+  {
+    "nombre": "Dulce Encanto",
+    "telefono": "+591 77781023",
+    "mapa": "https://www.google.com/maps/place/Salón+de+eventos+dulce+encanto,+Calle+D,+El+Alto/data=!4m2!3m1!1s0x915edf9af272172d:0x3469a9b22b0eae76?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI1LjM4LjIYACCenQoqkAEsOTQyNjc3MjcsOTQyODQ0NTQsOTQyMjMyOTksOTQyMTY0MTMsOTQyODA1NzYsOTQyMTI0OTYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTc1MjMsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsNDcwODQzOTMsOTQyMTMyMDAsOTQyNTgzMjVCAkJP&skid=e3d7c230-504c-41c3-9c68-79bced0d57e0"
+  },
+  {
+    "nombre": "Hakuna Matata",
+    "telefono": "+591 70693245",
+    "mapa": "https://www.google.com/maps/place/HAKUNA+MATATA/@-16.5191235,-68.1569138,17z/data=!3m1!4b1!4m6!3m5!1s0x915edf1e35fcd463:0xa66a0bf53e55c127!8m2!3d-16.5191235!4d-68.1569138!16s%2Fg%2F11p4_cpmpv?entry=ttu&g_ep=EgoyMDI1MDkyMS4wIKXMDSoASAFQAw%3D%3D"
+  },
+  {
+    "nombre": "Divertiland",
+    "telefono": "Consultar en el lugar con estos datos"
+  }
+]
