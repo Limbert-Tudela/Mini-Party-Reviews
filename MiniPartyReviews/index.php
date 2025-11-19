@@ -1,7 +1,6 @@
 <?php
 session_start();
 require 'conexion.php'; // conexión PDO
-
 // Consulta: obtener los 3 salones con mejor promedio
 $sql = "
     SELECT s.IdSalon, s.Nombre, s.Descripcion, z.Nombre AS Zona, 
@@ -16,7 +15,6 @@ $sql = "
 $stmt = $conn->prepare($sql);
 $stmt->execute();
 $destacados = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
 // Obtener todas las fotos de los salones destacados
 $idsDestacados = array_column($destacados, 'IdSalon');
 $fotosPorSalon = [];
@@ -40,7 +38,6 @@ function mostrarEstrellas($promedio) {
     return $estrellas;
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -147,3 +144,4 @@ carousels.forEach(carousel => {
 
 </body>
 </html>
+
